@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom';
 import { Home } from './pages'
-import Nav from './components/Nav';
+import { Nav } from './components'
 
 function App() {
 
