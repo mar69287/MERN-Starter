@@ -6,10 +6,10 @@ const Nav = () => {
     <div 
       style={{
         backgroundColor: '#333',
-        position: "fixed",
+        position: "absolute",
         top: 0,
         left: 0,
-        width: '100%',
+        right: 0,
         zIndex: 3,
         height:'70px',
         padding: '0 15px',
@@ -20,6 +20,9 @@ const Nav = () => {
     >
       <Link to={'/'} >
         Home
+      </Link>
+      <Link to={'/Auth'} >
+        Auth
       </Link>
     </div>
   )
