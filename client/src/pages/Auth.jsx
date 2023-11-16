@@ -1,9 +1,13 @@
+import Login from "../components/AuthForms/Login"
 import Signup from "../components/AuthForms/Signup"
 
 const Auth = ({ setUser }) => {
 
   return (
-    <Signup setUser={setUser} />
+    <>
+        <Signup setUser={setUser} />
+        <Login setUser={setUser} />
+    </>
   )
 }
 
